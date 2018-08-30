@@ -93,6 +93,14 @@ p {
     margin-right: 50px;
 }
 
+.navbar-toggler {
+	border: none;
+}
+
+.navbar-toggler:focus {
+	outline: 0;
+}
+
 ul {
     display: flex;
     flex-direction: row;
