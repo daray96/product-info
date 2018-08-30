@@ -359,10 +359,12 @@ collapse navbar-collapse {
         height: 200px;
     }
 
-    .media p {
+    .media .video-description {
+        background-color: transparent;
+    }
+
+    .media .video-description p {
         font-size: 12px;
-        margin: auto;
-        padding: auto;
     }
 
     .submit,
