@@ -93,14 +93,6 @@ p {
     margin-right: 50px;
 }
 
-.navbar-toggler {
-	border: none;
-}
-
-.navbar-toggler:focus {
-	outline: 0;
-}
-
 ul {
     display: flex;
     flex-direction: row;
@@ -115,12 +107,19 @@ collapse navbar-collapse {
     position: absolute
 }
 
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+}
+
 .nav-links {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 19px;
     color: #FFF;
-    /*    margin-right: 60px;*/
     width: auto;
 }
 
@@ -137,7 +136,7 @@ collapse navbar-collapse {
     text-decoration: none;
 }
 
-a:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #57FB76;
 }
 
@@ -288,7 +287,6 @@ a:hover {
     display: block;
     margin: auto;
     padding: 0px 0px 0px 0px;
-     !important
 }
 
 .btn:hover {
@@ -299,12 +297,18 @@ a:hover {
 /*MEDIA QUERIES*/
 
 @media screen and (max-width:1150px) {
+
+    body {
+        width: auto;
+    }
+
+
     header {
         height: 250px;
-        width: auto;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        position: static;
+        position: fixed;
     }
 
     .title {
@@ -315,9 +319,53 @@ a:hover {
         height: 30px;
     }
 
-    .navbar-collapse, ul{
+    .navbar-collapse,
+    ul {
         width: inherit;
         margin-right: 0px;
         text-align: center;
+    }
+
+    .content,
+    .prices {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .col-product-2 {
+        margin-top: 10px;
+    }
+    .col-product-2 h3 {
+        font-size: 20px;
+    }
+    .col-product-2 p {
+        font-size: 14px;
+    }
+
+    .content {
+        top: 100px;
+    }
+
+    .media {
+        display: block;
+        width: auto;
+        padding: 0px 0px 0px 0px;
+        margin-top: 400px;
+        margin-bottom: 0px;
+        padding-top: 150px;
+    }
+
+    .media iframe {
+        height: 200px;
+    }
+
+    .media p {
+        font-size: 12px;
+    }
+
+    .submit,
+    .submit p,
+    .submit input {
+        width: 200px;
     }
 }
