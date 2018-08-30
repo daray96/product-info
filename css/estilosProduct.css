@@ -361,6 +361,8 @@ collapse navbar-collapse {
 
     .media p {
         font-size: 12px;
+        margin: auto;
+        padding: auto;
     }
 
     .submit,
