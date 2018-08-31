@@ -367,9 +367,51 @@ collapse navbar-collapse {
         font-size: 12px;
     }
 
+    .prices {
+        padding-top: 100px;
+        margin-bottom: 1200px
+    }
+
+    .pricing-card {
+        width: auto;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+    
+    .prices img {
+        height: 160px;
+    }
+    
+    .btn-buy {
+	position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+    .submit {
+        margin: auto;
+        margin-bottom: 700px;
+        margin-top: 100px;
+        padding-top: 200px;
+        top: 800px;
+        width: auto;
+        background-color: transparent;
+    }
+
+    .submit .pointer-4 {
+        display: block;
+    }
+
     .submit,
     .submit p,
     .submit input {
         width: 200px;
+        font-size: 14px;
+        
     }
+    
+    .submit p {
+	    margin-bottom: 60px;
+}
 }
