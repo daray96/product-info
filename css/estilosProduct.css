@@ -376,18 +376,18 @@ collapse navbar-collapse {
         width: auto;
         margin: auto;
         margin-top: 50px;
-        
+
     }
-    
+
     .prices img {
         height: 160px;
     }
-    
+
     .btn-buy {
-	position: relative;
-    margin: auto;
-    width: 100%;
-}
+        position: relative;
+        margin: auto;
+        width: 100%;
+    }
 
     .submit {
         margin: auto;
@@ -408,10 +408,10 @@ collapse navbar-collapse {
     .submit input {
         width: 200px;
         font-size: 14px;
-        
+
     }
-    
+
     .submit p {
-	    margin-bottom: 60px;
-}
+        margin-bottom: 60px;
+    }
 }
